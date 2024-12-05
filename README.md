@@ -38,8 +38,8 @@ The project scrapes Reddit posts related to stock discussions, performs sentimen
 1. Install Python 3.8 or higher.
 2. Clone the repository (if using Git on desktop):
    ```bash
-   git clone https://github.com/[YourUsername]/Stock-Movement-Analysis.git
-   cd Stock-Movement-Analysis
+   git clone https://github.com/Pranaykumar30/Stock_Movement_Analysis.git
+   cd Stock_Movement_Analysis.git
    ```
 3. Install dependencies:
    ```bash
@@ -100,7 +100,7 @@ Stock-Movement-Analysis/
 
 ## Model Evaluation
 <!-- Overview of model performance -->
-The Random Forest model achieved the best results, with an accuracy of 85%. For detailed metrics, refer to the [evaluation notebook](notebooks/04_model_evaluation.ipynb).
+The Random Forest model achieved the best results, with an accuracy of 85%. Refer to the [evaluation notebook](notebooks/05_model_evaluation.ipynb) for detailed metrics.
 
 ---
 
@@ -108,9 +108,3 @@ The Random Forest model achieved the best results, with an accuracy of 85%. For 
 <!-- Licensing information -->
 This project is licensed under the MIT License. Please take a look at the [LICENSE](LICENSE) file for details.
 ```
-
-### **How to Use This**
-
-- Copy the snippet into your `README.md` file in the repository.
-- Replace placeholders like `[YourUsername]` with your GitHub username.
-- Ensure that all file paths (e.g., `notebooks/`, `scraper/`, etc.) match the actual repository structure.
