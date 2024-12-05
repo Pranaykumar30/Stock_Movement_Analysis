@@ -1,18 +1,48 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
 
-# Other files and folders
-.settings/
+# Ignore environment files
+.env
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore dataset files (optional, if not sharing the dataset)
+data/*.csv
+
+# Ignore model files (optional, if pickle files are not shared)
+models/*.pkl
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~lock.*
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore compiled files
+*.so
+*.dll
+*.exe
+*.out
+
+# Ignore zip or tar archives
+*.zip
+*.tar.gz
+*.rar
